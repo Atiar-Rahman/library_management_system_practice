@@ -1,8 +1,9 @@
 from django.shortcuts import get_object_or_404
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view,APIView
 from rest_framework.response import Response
 from authers.serializers import AuthorSerializer
 from authers.models import Authors
+from rest_framework.generics import ListCreateAPIView,RetrieveUpdateDestroyAPIView
 # Create your views here.
 
 @api_view(['GET', 'POST'])
@@ -37,3 +38,27 @@ def view_specific_authors(request,pk):
     if request.method == 'DELETE':
         author.delete()
         return Response("successfully")
+    
+
+# convert classbased view
+
+# class ViewAuthors(APIView):
+#     def get(self,request):
+#         authors = Authors.objects.all()
+#         serilizer = AuthorSerializer(authors,many = True)
+#         return Response(serilizer.data)
+    
+#     def post(self,request):
+#         serializer = AuthorSerializer(data=request.data)
+#         serializer.is_valid(raise_exception=True)
+#         serializer.save()
+#         return Response(serializer.data)
+
+class ViewAuthors(ListCreateAPIView):
+    queryset = Authors.objects.all()
+    serializer_class = AuthorSerializer
+
+class ViewSpecificAuthors(RetrieveUpdateDestroyAPIView):
+    queryset = Authors.objects.all()
+    serializer_class = AuthorSerializer
+    lookup_field = 'id'
