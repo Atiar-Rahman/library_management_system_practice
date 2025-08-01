@@ -1,0 +1,82 @@
+[
+  {
+    "model": "authers.authors",
+    "pk": 1,
+    "fields": {
+      "name": "J.K. Rowling",
+      "biography": "British author, best known for the Harry Potter series."
+    }
+  },
+  {
+    "model": "authers.authors",
+    "pk": 2,
+    "fields": {
+      "name": "George R.R. Martin",
+      "biography": "American novelist and creator of A Song of Ice and Fire."
+    }
+  },
+  {
+    "model": "authers.authors",
+    "pk": 3,
+    "fields": {
+      "name": "J.R.R. Tolkien",
+      "biography": "English writer and professor, author of The Lord of the Rings."
+    }
+  },
+  {
+    "model": "authers.authors",
+    "pk": 4,
+    "fields": {
+      "name": "Agatha Christie",
+      "biography": "Renowned British mystery writer."
+    }
+  },
+  {
+    "model": "authers.authors",
+    "pk": 5,
+    "fields": {
+      "name": "Stephen King",
+      "biography": "American author of horror and suspense novels."
+    }
+  },
+  {
+    "model": "authers.authors",
+    "pk": 6,
+    "fields": {
+      "name": "Jane Austen",
+      "biography": "English novelist known for Pride and Prejudice."
+    }
+  },
+  {
+    "model": "authers.authors",
+    "pk": 7,
+    "fields": {
+      "name": "Mark Twain",
+      "biography": "American writer and humorist, author of Tom Sawyer."
+    }
+  },
+  {
+    "model": "authers.authors",
+    "pk": 8,
+    "fields": {
+      "name": "Leo Tolstoy",
+      "biography": "Russian author of War and Peace and Anna Karenina."
+    }
+  },
+  {
+    "model": "authers.authors",
+    "pk": 9,
+    "fields": {
+      "name": "Ernest Hemingway",
+      "biography": "American novelist and Nobel laureate."
+    }
+  },
+  {
+    "model": "authers.authors",
+    "pk": 10,
+    "fields": {
+      "name": "Haruki Murakami",
+      "biography": "Japanese novelist known for surreal and magical realism fiction."
+    }
+  }
+]
