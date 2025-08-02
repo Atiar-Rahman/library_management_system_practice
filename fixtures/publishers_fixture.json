@@ -1,0 +1,92 @@
+[
+  {
+    "model": "publishers.publishers",
+    "pk": 1,
+    "fields": {
+      "name": "Penguin Random House",
+      "address": "1745 Broadway, New York, NY",
+      "contact_email": "contact@penguinrandomhouse.com"
+    }
+  },
+  {
+    "model": "publishers.publishers",
+    "pk": 2,
+    "fields": {
+      "name": "HarperCollins",
+      "address": "195 Broadway, New York, NY",
+      "contact_email": "info@harpercollins.com"
+    }
+  },
+  {
+    "model": "publishers.publishers",
+    "pk": 3,
+    "fields": {
+      "name": "Simon & Schuster",
+      "address": "1230 Avenue of the Americas, New York, NY",
+      "contact_email": "service@simonandschuster.com"
+    }
+  },
+  {
+    "model": "publishers.publishers",
+    "pk": 4,
+    "fields": {
+      "name": "Hachette Book Group",
+      "address": "1290 Avenue of the Americas, New York, NY",
+      "contact_email": "support@hachettebookgroup.com"
+    }
+  },
+  {
+    "model": "publishers.publishers",
+    "pk": 5,
+    "fields": {
+      "name": "Macmillan Publishers",
+      "address": "120 Broadway, New York, NY",
+      "contact_email": "hello@macmillan.com"
+    }
+  },
+  {
+    "model": "publishers.publishers",
+    "pk": 6,
+    "fields": {
+      "name": "Scholastic",
+      "address": "557 Broadway, New York, NY",
+      "contact_email": "customercare@scholastic.com"
+    }
+  },
+  {
+    "model": "publishers.publishers",
+    "pk": 7,
+    "fields": {
+      "name": "Oxford University Press",
+      "address": "Great Clarendon Street, Oxford, UK",
+      "contact_email": "info@oup.com"
+    }
+  },
+  {
+    "model": "publishers.publishers",
+    "pk": 8,
+    "fields": {
+      "name": "Cambridge University Press",
+      "address": "University Printing House, Cambridge, UK",
+      "contact_email": "contact@cambridge.org"
+    }
+  },
+  {
+    "model": "publishers.publishers",
+    "pk": 9,
+    "fields": {
+      "name": "Bloomsbury Publishing",
+      "address": "50 Bedford Square, London",
+      "contact_email": "info@bloomsbury.com"
+    }
+  },
+  {
+    "model": "publishers.publishers",
+    "pk": 10,
+    "fields": {
+      "name": "Wiley",
+      "address": "111 River Street, Hoboken, NJ",
+      "contact_email": "support@wiley.com"
+    }
+  }
+]

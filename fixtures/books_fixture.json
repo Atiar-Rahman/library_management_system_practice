@@ -1,0 +1,323 @@
+[
+  {
+    "model": "books.categories",
+    "pk": 1,
+    "fields": {
+      "name": "Science Fiction",
+      "description": "Books exploring futuristic and scientific themes."
+    }
+  },
+  {
+    "model": "books.categories",
+    "pk": 2,
+    "fields": {
+      "name": "Fantasy",
+      "description": "Books set in magical or imaginary worlds."
+    }
+  },
+  {
+    "model": "books.categories",
+    "pk": 3,
+    "fields": {
+      "name": "History",
+      "description": "Books focused on historical events and biographies."
+    }
+  },
+  {
+    "model": "books.categories",
+    "pk": 4,
+    "fields": {
+      "name": "Technology",
+      "description": "Books on computers, software, and emerging tech."
+    }
+  },
+  {
+    "model": "books.categories",
+    "pk": 5,
+    "fields": {
+      "name": "Self Help",
+      "description": "Books focused on personal development and psychology."
+    }
+  },
+
+  {
+    "model": "books.books",
+    "pk": 1,
+    "fields": {
+      "title": "The Time Machine",
+      "isbn": "ISBN0001",
+      "publisher": 1,
+      "category": 1,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 10,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 2,
+    "fields": {
+      "title": "Dune",
+      "isbn": "ISBN0002",
+      "publisher": 2,
+      "category": 1,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 8,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 3,
+    "fields": {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "isbn": "ISBN0003",
+      "publisher": 3,
+      "category": 2,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 12,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 4,
+    "fields": {
+      "title": "The Hobbit",
+      "isbn": "ISBN0004",
+      "publisher": 4,
+      "category": 2,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 7,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 5,
+    "fields": {
+      "title": "A Brief History of Time",
+      "isbn": "ISBN0005",
+      "publisher": 5,
+      "category": 3,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 9,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 6,
+    "fields": {
+      "title": "Sapiens",
+      "isbn": "ISBN0006",
+      "publisher": 6,
+      "category": 3,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 10,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 7,
+    "fields": {
+      "title": "Deep Work",
+      "isbn": "ISBN0007",
+      "publisher": 7,
+      "category": 5,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 6,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 8,
+    "fields": {
+      "title": "Atomic Habits",
+      "isbn": "ISBN0008",
+      "publisher": 8,
+      "category": 5,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 15,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 9,
+    "fields": {
+      "title": "Clean Code",
+      "isbn": "ISBN0009",
+      "publisher": 9,
+      "category": 4,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 5,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 10,
+    "fields": {
+      "title": "Design Patterns",
+      "isbn": "ISBN0010",
+      "publisher": 10,
+      "category": 4,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 4,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 11,
+    "fields": {
+      "title": "Ender's Game",
+      "isbn": "ISBN0011",
+      "publisher": 1,
+      "category": 1,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 9,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 12,
+    "fields": {
+      "title": "Foundation",
+      "isbn": "ISBN0012",
+      "publisher": 2,
+      "category": 1,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 6,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 13,
+    "fields": {
+      "title": "The Silmarillion",
+      "isbn": "ISBN0013",
+      "publisher": 3,
+      "category": 2,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 5,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 14,
+    "fields": {
+      "title": "The Art of War",
+      "isbn": "ISBN0014",
+      "publisher": 4,
+      "category": 3,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 7,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 15,
+    "fields": {
+      "title": "Thinking, Fast and Slow",
+      "isbn": "ISBN0015",
+      "publisher": 5,
+      "category": 5,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 8,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 16,
+    "fields": {
+      "title": "The Pragmatic Programmer",
+      "isbn": "ISBN0016",
+      "publisher": 6,
+      "category": 4,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 6,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 17,
+    "fields": {
+      "title": "JavaScript: The Good Parts",
+      "isbn": "ISBN0017",
+      "publisher": 7,
+      "category": 4,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 7,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 18,
+    "fields": {
+      "title": "The Psychology of Money",
+      "isbn": "ISBN0018",
+      "publisher": 8,
+      "category": 5,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 11,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 19,
+    "fields": {
+      "title": "Zero to One",
+      "isbn": "ISBN0019",
+      "publisher": 9,
+      "category": 5,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 9,
+      "image": null
+    }
+  },
+  {
+    "model": "books.books",
+    "pk": 20,
+    "fields": {
+      "title": "Cracking the Coding Interview",
+      "isbn": "ISBN0020",
+      "publisher": 10,
+      "category": 4,
+      "created_at": "2025-08-01",
+      "updated_at": "2025-08-01",
+      "quantity": 10,
+      "image": null
+    }
+  }
+]
